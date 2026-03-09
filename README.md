@@ -1,3 +1,9 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/README.md b/README.md
+index 5296cb07a91ff8e010e5f3ed681d2686bac223d1..b9ed147b79fbe81530c59c7359b1455c0e44a1b3 100644
+--- a/README.md
++++ b/README.md
+@@ -1,169 +1,218 @@
  # Damage Proxy Mapping with Time Series Prediction of InSAR Phase Standard Deviation
  
  ## Overview
@@ -329,3 +335,6 @@
 +## Acknowledgement
 +
 +If this repository is used for operational or publication workflows, please add a project license and include required attribution for data sources and upstream toolchains.
+ 
+EOF
+)
