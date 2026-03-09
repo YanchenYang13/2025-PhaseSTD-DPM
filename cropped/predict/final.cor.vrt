@@ -1,9 +1,0 @@
-<VRTDataset rasterXSize="417" rasterYSize="68">
-    <VRTRasterBand dataType="Float32" band="1" subClass="VRTRawRasterBand">
-        <SourceFilename relativeToVRT="1">final.cor</SourceFilename>
-        <ByteOrder>LSB</ByteOrder>
-        <ImageOffset>0</ImageOffset>
-        <PixelOffset>4</PixelOffset>
-        <LineOffset>1668</LineOffset>
-    </VRTRasterBand>
-</VRTDataset>
