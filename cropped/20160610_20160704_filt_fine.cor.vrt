@@ -1,0 +1,9 @@
+<VRTDataset rasterXSize="540" rasterYSize="110">
+    <VRTRasterBand dataType="Float32" band="1" subClass="VRTRawRasterBand">
+        <SourceFilename relativeToVRT="1">20160610_20160704_filt_fine.cor</SourceFilename>
+        <ByteOrder>LSB</ByteOrder>
+        <ImageOffset>0</ImageOffset>
+        <PixelOffset>4</PixelOffset>
+        <LineOffset>2160</LineOffset>
+    </VRTRasterBand>
+</VRTDataset>
